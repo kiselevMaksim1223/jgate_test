@@ -1,0 +1,27 @@
+.button {
+    font-weight: 400;
+    font-size: 24px;
+    width: 320px;
+    border-radius: 8px;
+    padding: 13px;
+    border: none;
+    transition: background-color 0.3s ease;
+
+    &.buttonYellow {
+        background: #FBBF23;
+        &:hover {
+            background-color: #e1a50b;
+        }
+    }
+
+    &.buttonTransparent {
+        background: transparent;
+        border: 1px solid #61A5FA;
+        &:hover {
+            background-color: #3B82F6;
+            color: #FFFFFF;
+        }
+    }
+
+
+}
